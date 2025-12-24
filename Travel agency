@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+
+<head>
+  <meta charset="utf-8"/>
+  <title>Travel Agency Page
+    </title>
+</meta>
+  </head>
+
+
+<body>
+  <h1>Kuala Lumpur, Malaysia</h1>
+  <p>Discover one of South East Asia's hidden gems. A melting pot of cultures comes together to create a new, unique hybrid culture. You'll experience unique food, tradition, cultural practices, local customs specifically unique to this area.</p>
+
+  <h2>
+    Packages
+  </h2>
+
+  <p>You have the option to choose Group Travels, or private tours with us. The summary of the packages can be seen below.</p>
+
+<ul><a href="https://www.freecodecamp.org/learn" target="_blank">Group Travels</a>
+  <li>Duration: 7 days</li>
+  <li>Places: Petronas Towers, Batu Caves, KL Tower, Merdeka Square, Jalan Alor (food), Aquaria KLCC, Royal Selangor Visitor Centre.</li>
+  <li>Transporation: Tour bus</li>
+  <li>Languages: English</li>
+  <li>Cost: RM 1,000 per person</li>
+</ul>
+
+
+<ul><a href="https://www.freecodecamp.org/learn" target="_blank">Private Tours</a>
+  <li>Duration: 7 days</li>
+  <li>Places: Petronas Towers, Batu Caves, KL Tower, Merdeka Square, Jalan Alor (food), Aquaria KLCC, Royal Selangor Visitor Centre.</li>
+  <li>Transporation: Private Car</li>
+  <li>Languages: English (default), Other language services include Mandarin, French, Spanish, Indonesian, Tagalog, Vietnamese, Thai, Japanese, Korean</li>
+  <li>Cost: RM 2,000 per person. A surcharge of RM 500 will be imposed for a more customised language tour.</li>
+</ul>
+
+<h2>Top Itineraries</h2>
+<figure>
+  <a href="https://www.freecodecamp.org/learn" target="_blank"><img src="https://www.holidify.com/images/bgImages/BATU-CAVES.jpg" alt="Batu Caves"></a>
+  <figcaption>Batu Caves</figcaption><br>
+    <a href="https://www.freecodecamp.org/learn" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Petronas_Panorama_II_%284to3%29.jpg/250px-Petronas_Panorama_II_%284to3%29.jpg" alt="Twin Towers"></a>
+  <figcaption>Twin Tower</figcaption><br>
+   <a href="https://www.freecodecamp.org/learn" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Kuala_Lumpur_Tower_20250822_%281%29.jpg/330px-Kuala_Lumpur_Tower_20250822_%281%29.jpg" alt="KL Tower"></a>
+  <figcaption>KL Tower</figcaption>
+</figure>
+
+  </body>
+
+  </html>

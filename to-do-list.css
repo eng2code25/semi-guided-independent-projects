@@ -1,0 +1,71 @@
+.list {
+  text-align: center;
+}
+
+.item-1 {
+  background-color: Azure;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.first-link {
+  list-style-type: square;
+  color: purple;
+  font-size: 18px;
+  text-indent: 30px;
+}
+
+.gaming {
+  font-family: Arial;
+}
+
+.item-2 {
+  background-color: Azure;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.second-link {
+  list-style-type: square;
+  color: purple;
+  font-size: 18px;
+  text-indent: 30px;
+}
+
+.report {
+  font-family: Arial;
+}
+
+.item-3 {
+  background-color: Azure;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.third-link {
+  list-style-type: square;
+  color: purple;
+  font-size: 18px;
+  text-indent: 30px;
+}
+
+.warranty {
+  font-family: Arial;
+}
+
+.item-4 {
+  background-color: Azure;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.fourth-link {
+  list-style-type: square;
+  color: purple;
+  font-size: 18px;
+  text-indent: 30px;
+}
+
+.spec {
+  font-family: Arial;
+}

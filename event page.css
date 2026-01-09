@@ -1,0 +1,33 @@
+img {
+  position: relative;
+  top: 30px;
+}
+
+.flag {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  font-family: Arial;
+}
+
+p {
+  text-align: center;
+  font-family: Arial;
+  font-size: 13px;
+}
+
+.one {
+  height: 2px;
+  width: 600px;
+}
+
+.make-center {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul {
+  margin-left: -30px;
+}

@@ -1,0 +1,55 @@
+body {
+  background-color: firebrick;
+}
+
+.message {
+  background-color: black;
+  border-radius: 20px;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.emoji {
+  height: 40px;
+  margin: 15px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.wish {
+  font-family: Arial;
+  text-align: center;
+}
+
+.message2 {
+  font-size: 18px;
+  font-family: Arial;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.send {
+  background-color: blue;
+  border: none;
+  border-radius: 6px;
+  height: 30px;
+  width: 90px;
+}
+
+.social {
+  background-color: blue;
+  border: none;
+  border-radius: 6px;
+  height: 30px;
+  width: 160px;
+}
+
+.button {
+  display: flex;
+  justify-content: space-evenly;
+}

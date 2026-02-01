@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Form</title>
+    <link href="form-2-debugged.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="page">
+      <h1>Registration Form</h1>
+      <hr />
+      <div class="wrapper">
+        <form action="/action_page.php" method="post">
+          <div class="card">
+            <label for="name" class="form-label">Full Name:</label>
+              <input
+                type="text"
+                class="form-input"
+                name="name"
+                id="name"
+                placeholder="Enter your full name"
+              />
+          </div>
+          <div class="card">
+            <label for="email" class="form-label">Email Address:</label>
+              <input
+                type="email"
+                class="form-input"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+              />
+          </div>
+          <div class="card">
+            <label for="password" class="form-label">Password:</label>
+              <input
+                type="password"
+                class="form-input"
+                name="password"
+                id="password"
+                placeholder="Enter your password"
+              />
+          </div>
+          <div class="card">
+            <label for="repassword" class="form-label">Confirm Password:</label>
+              <input
+                type="password"
+                class="form-input"
+                name="password"
+                id="repassword"
+                placeholder="Re-enter your password"
+              />
+          </div>
+      </div>
+        <hr />
+      <div class="gender-select">      
+        <p class="gender">Gender:</p>
+        <div class="option-gender">
+          <div class="option-male">
+            <input
+              name="gender"
+              value="male"
+              id="male"
+              class="form-select"
+              type="radio"
+              checked
+            />
+            <label for="male" class="label-select">Male</label>
+          </div>
+          <div class="option-female">
+            <input
+              name="gender"
+              value="female"
+              id="female"
+              class="form-select"
+              type="radio"
+            />
+            <label for="female" class="label-select">Female</label>
+          </div>
+        </div>
+      </div>  
+          <hr />
+        <div class="interest-option">
+          <p class="interest">Interests:</p>
+          <div class="interest-position">
+            <div class="newsletter-option">
+              <input
+                type="checkbox"
+                id="newsletter"
+                name="newsletter"
+                class="interest-select"
+                checked
+              />
+              <label for="newsletter" class="interest-label">Newsletter</label>
+            </div>
+            <div class="event-option">
+              <input
+                type="checkbox"
+                id="events"
+                name="events"
+                class="interest-select"
+                checked
+              />
+              <label for="events" class="interest-label">Events</label>
+            </div>
+            <div class="offer-option">
+              <input
+                type="checkbox"
+                id="offer"
+                name="special-offer"
+                class="interest-select"
+              />
+              <label for="offer" class="interest-label">Special Offer</label>
+            </div>
+          </div>
+          <div class="click">
+            <button type="submit" class="button-register">Register</button>
+          </div>
+        </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

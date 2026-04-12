@@ -1,0 +1,30 @@
+/*For search bar and button*/
+.search-bar {
+  min-width: 500px;
+  min-height: 35px;
+}
+
+.wrapper {
+  /*background-color: blue; /*debugging only*/
+  padding: 30px;
+  display: flex;
+  gap: 30px;
+}
+
+.search-button {
+  min-width: 100px;
+  min-height: 35px;
+}
+
+.search-button {
+  font-size: 15px;
+}
+
+/*for the grocery list*/
+.list {
+  display: block;
+}
+
+.hide {
+  display: none;
+}

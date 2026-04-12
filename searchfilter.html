@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Filter</title>
+    <link href="searchfilter.css" rel="stylesheet" />
+    <script src="searchfilter.js" defer></script>
+  </head>
+
+  <body>
+    <!--The search bar and button-->
+    <div class="wrapper">
+      <div class="input-bar">
+        <input
+          id="search-bar"
+          class="search-bar"
+          placeholder="🔍 Type here..."
+        />
+      </div>
+      <!--<div class="button">
+        <button class="search-button">Search</button>
+      </div>
+    --></div>
+
+    <!--The task list-->
+    <h3>My Grocery List</h3>
+    <div class="list">
+      <ul id="grocery-list">
+        <li>Milk</li>
+        <li>Eggs</li>
+        <li>Spaghetti</li>
+        <li>Baked beans</li>
+        <li>Fresh fruits</li>
+      </ul>
+      <p id="no-results" class="hide">No items found matching your search.</p>
+    </div>
+  </body>
+</html>

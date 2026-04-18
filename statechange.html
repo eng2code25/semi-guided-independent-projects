@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Changing states</title>
+    <link href="statechange.css" rel="stylesheet" />
+    <script src="statechange1.js" defer></script>
+  </head>
+
+  <body>
+    <div class="title">
+      <h1>Registration Form</h1>
+    </div>
+    <div class="step" id="step-1">
+      <h4>Page 1: Basic Info</h4>
+      <form>
+        <div class="basic-info">
+          <label class="basic-info-style">Name:</label>
+          <input type="text" class="basic-info-input" placeholder="Name" />
+        </div>
+        <div class="basic-info">
+          <label class="basic-info-style">Age:</label>
+          <input type="number" class="basic-info-input" placeholder="Age" />
+        </div>
+        <div class="basic-info">
+          <label class="basic-info-style">Address:</label>
+          <input type="text" class="basic-info-input" placeholder="Address" />
+        </div>
+        <div class="basic-info">
+          <label class="basic-info-style">Contact:</label>
+          <input type="number" class="basic-info-input" placeholder="Mobile"/>
+        </div>
+        <button class="next-button" type="button">Next -></button>
+      </form>
+    </div>
+    <div class="step-hide" id="step-2">
+      <h4>Page 2: Details</h4>
+      <form>
+        <div class="details-info">
+          <label class="details-info-style">Nationality:</label>
+          <input type="text" class="details-info-input" placeholder="Nationality" />
+        </div>
+        <div class="details-info">
+          <label class="details-info-style">Country of Origin:</label>
+          <input type="text" class="details-info-input" placeholder="Country of origin" />
+        </div>
+        <div class="details-info">
+          <label class="details-info-style">Passport Number:</label>
+          <input type="number" class="details-info-input" placeholder="Passport number"/>
+        </div>
+        <div class="buttons">
+          <div>
+            <button class="back-button" type="button"><- Back</button>
+          </div>
+          <div>
+            <button class="next-button" type="button">Next -></button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="step-hide" id="step-3">
+      <h4>Page 3: Confirm</h4>
+      <div id="summary-display">
+        <!--This is a summary container and its for JS-->
+      </div>
+      <div class="buttons">
+        <div>
+          <button class="back-button" type="button"><- Back</button>
+        </div>
+        <div>
+          <button class="submit-button" type="submit">Submit</button>
+        </div>
+      </div>
+  </body>
+</html>

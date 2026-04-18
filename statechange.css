@@ -1,0 +1,32 @@
+.basic-info,
+.details-info {
+  /*background-color: blue; /*debugging only*/
+  padding-bottom: 20px;
+}
+
+.basic-info-style,
+.details-info-style {
+  font-size: 20px;
+}
+
+.basic-info-input,
+.details-info-input {
+  min-width: 30%;
+  min-height: 20px;
+}
+
+.next-button,
+.back-button,
+.submit-button {
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 50px;
+}
+
+.step-hide {
+  display: none;
+}

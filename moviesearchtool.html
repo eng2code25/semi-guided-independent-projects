@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie search tool</title>
+    <link href="moviesearchtool.css" rel="stylesheet" />
+    <script src="moviesearchtool.js" defer></script>
+  </head>
+
+  <body>
+    <div class="input-container">
+      <input placeholder="🔍 Search movie... " class="input-search" />
+    </div>
+    <div class="button-container">
+      <button class="button-search">Search</button>
+    </div>
+    <div id="search-result" class="result-container">
+      <h4>Results</h4>
+      <!--The search results appear here-->
+    </div>
+    <div id="search-progress" class="search-progress-container">
+      <p>Loading... ⏳</p>
+      <!--The searching in progress appear here-->
+    </div>
+    <div id="error-result" class="error-container">
+      <p>Error: Something went wrong ❌</p>
+      <!--The error message appear here-->
+    </div>
+  </body>
+</html>

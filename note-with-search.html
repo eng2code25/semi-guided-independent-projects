@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Note tool with search</title>
+    <link href="note-with-search.css" rel="stylesheet" />
+    <script src="note-with-search.js" defer></script>
+  </head>
+
+  <body>
+    <!--Note taking section-->
+    <div class="addNote-button-container">
+      <button class="addNote-button">Add Notes</button>
+    </div>
+    <div class="note-section">
+      <div class="text-container">
+        <textarea
+          placeholder="Write your notes here..."
+          class="note-input"
+        ></textarea>
+      </div>
+      <div class="button-container">
+        <div class="saveButton-container">
+          <button class="saveNote-button">Save Note</button>
+        </div>
+        <div class="deleteButton-container">
+          <button class="deleteNote-button">Delete Note</button>
+        </div>
+      </div>
+    </div>
+    <!--Search note section-->
+    <div class="search-notes-container">
+      <input placeholder="🔍 Search notes" class="search-input" />
+    </div>
+    <div class="clear-button-container">
+      <button class="clear-button">Clear Search</button>
+    </div>
+    <!--Saved notes section-->
+    <div>
+      <h3>My Saved Notes</h3>
+      <div class="save-note-container"><!--Save notes container --></div>
+    </div>
+  </body>
+</html>
